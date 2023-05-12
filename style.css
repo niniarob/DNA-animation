@@ -1,20 +1,19 @@
 body{
     background-color: #000;
+    
 }
 div{
+    margin: auto;
     width: 20%;
     height: 10px;
-    border-top: 1px dashed white;
+    border-top: 1px dashed #ffffff;
     border-radius: 20px;
     border-bottom: none;
-    border-right: 20px solid red;
-    border-left: 20px solid blue;
-    margin-right: 30px;
-    margin-left: 520px;
-    margin-bottom: 7px;
+    border-right: 20px solid #d0ff00;
+    border-left: 20px solid #ea0b17;
     margin-top: 10px;
     animation: dna 5s linear infinite;
-    animation-delay: calc(var(--i) * 0.3s);
+    animation-delay: calc(var(--i) * 0.2s);
 }
 @keyframes dna{
     100%{
